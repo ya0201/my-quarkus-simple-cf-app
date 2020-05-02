@@ -1,0 +1,4 @@
+applications:
+- name: my-quarkus-simple-cf-app
+  buildpack: binary_buildpack
+  command: ./target/getting-started-1.0-SNAPSHOT-runner
